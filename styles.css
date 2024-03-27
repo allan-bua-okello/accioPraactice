@@ -1,0 +1,33 @@
+#text{
+    color: blueviolet;
+    text-align: justify;
+    width: 50vw;
+    background-color: rgb(226, 194, 255);
+    margin: 20px;
+    padding: 20px; 
+    border-radius: 10% 0%;
+}
+#linked{
+    text-decoration: none;
+    color: red;
+}
+p{
+    text-shadow: 4px 4px 10px black;
+    text-align: center;
+    font-size: 50px;
+    color: aliceblue;
+    /* This shadow is
+    the first is to the x axis
+    the second to the y axis
+    the third is the blur percetage
+    the forth is for color
+     */
+     
+}
+#mine{
+    border: 5px solid red;
+    border-radius: 30% 0%;
+    background-color: brown;
+    width: 400px;
+    height: 400px;
+}

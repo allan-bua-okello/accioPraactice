@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <!-- 
@@ -17,10 +18,51 @@
 
         connecting html to css
         ```````````````````````
-        inline, internal and external
+        inline, internal and external (link href="")
+
+        CSS SELECTORS
+        ``````````````
+        Selectors are used to select html elements
+        selector{
+            property : value;
+            property : value
+        }
+        Note:{} - this is the declaration block
+
+        types of selectors
+        1. Universal selector
+        this is represented by * and it represents the whole page of the html file for example
+        *{
+            background color: red;
+        }
+
+        2. Type selector/tag selector
+        h1{
+            color : blue;
+        }
+        3. Class selector
+        we use . to access the class
+        .name{
+            color: orange;
+        }
+        4. ID selector
+        we use # to access the id element
+        #{
+            padding : 10px
+            width : 100px
+        }
+        5. Atribute seelector
+        [type="text"]{
+            background: black;
+        }
+
+        diff btn id and class
+        id is unique in that it can only be used on 1 element while a class can be used on multiple elements
      -->
      <div>
-        <h1>My name is Allan Bua</h1>
+        <h1 class="name">My name is Allan Bua</h1>
+        <h2 class="name">Okello is also my name</h2>
+        <input type="text" placeholder="Mine">
      </div>
 </body>
 </html>
