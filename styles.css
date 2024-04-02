@@ -31,3 +31,20 @@ p{
     width: 400px;
     height: 400px;
 }
+#jim{
+    width: 400px;
+    height: 400px;
+    background-color: aqua;
+    position: relative;
+    
+
+}
+#jimmed{
+    width: 100px;
+    height: 100px;
+    bottom: 10px;
+    position: absolute;
+    background-color: blue;
+    right: 10px;
+    
+}

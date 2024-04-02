@@ -2,14 +2,14 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <!-- 
+        <!-- 
         Properties
         1. Text
                 color - color of text
@@ -42,27 +42,90 @@
                 padding - this applies in the element or div
                 boarder
                 box-sizing - boarder-box - this property adds the padding and maintains the size of the element
-                
+                overflow : hidden - this prevents elements from overflowing ot of the parent
         6. list
+                lo>li
+
+        pesudo elements
+        :hover - what happens when hovered above an element
+        :active - this happens when an element is clicked
+        :first-child, last-child and nth-child(1or2 or even or odd) - this is used to select an element accodingly
+
+        7. Position property
+                static - this is the default but it does not support top,left.right and bottom
+                relative - it is similar to static but it supports top,left,right and bottom properties
+                fixed - this makes an element stay on the same place irespective of the behavior of the website
+                sticky - it sticks when the element reaches the specified loaction
+                absolute - this property takes the dimetions of the parent so if it is inside a div element, the div element should have the position of relative for it to work or else it takes the propeties of the parent website
+
+        8. display properties
+                block
+                inline
+                none
+                inline-block
+
+        9. List style properties
+                list-style-type - changing the type of numbering
+                list-style-position - works like indenting (it has inside and outside)
+                list-style-image inserting custom bullets
+                
+
+        10.z-index
+                this does not work with position static which is the default value. so inorder for it to work it should be relative, absolute
+                this determines which element should be above which one and the highest z-index value stays ontop while the rest remain at the bottom of it
+
+        11. Table styling properties
+                border - this is the color, size and style of the border
+                coedwr-colapse - collape (this removes the spacing in between the cells)
+                padding - this is the spacing inside of the cells
+                width and heigth - the hieght and width of a particular cell
+                text-align - the positon of text in a cell
+                vertical-align - the vertical alignment of text in a cell
+                background-color - the color of the backgound of the table
+
+        12. flex
+        this is a property in css that allows developers to create flexible and resposive layouts of our contect
+             ->   display - flex -- this is used to make our elements flexible and it is put on the parent  (flex cointainer and the child elements become the child elements)
+            ->    justify-content - (center/space-between/space-evenly/space-around/flex-end/flex-start) this is used to control the alignments of flex items along the main axis of the container.(the main axis is determined by the flex direction)
+             ->   align-items - (start/end/center) this works on the opposite axis(cross axsis) of the flex-direction
+                flex-direction - (row/coloum/row-reverse)it is used to give driection to our elements
+                flex-wrap - (wrap/wrap-reverse)this is used to wrap content to the next line if the space is not enough for the element
+
+                flex - (1/2/3/1) - this deals with the width of the element in that it is strechted across the webpage with the flex capability of the flex value
+                order - (1/2/3.....) this is the arrangments of the elements on the webpage
+                
+                
+                 
      -->
 
-    <div id="text">
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet recusandae adipisci corrupti, voluptatum nisi
-        porro voluptas architecto, incidunt ipsa tempora iure rerum eum minima! Ad fuga non tempora dolor laudantium
-        labore neque rem quasi ullam minima. Necessitatibus, ipsum odit eum iste quod doloremque ex repellendus libero
-        deserunt voluptatum. Id officia rem dolorum nulla velit inventore ipsa dicta! Provident aut sapiente doloribus
-        asperiores libero recusandae voluptatem explicabo aspernatur! Debitis perspiciatis fugit distinctio sed, magni
-        officia odio hic at quis illum totam magnam pariatur neque vel natus impedit asperiores animi delectus autem
-        nihil non temporibus voluptatibus ad labore! Atque molestias quo commodi!
-        
-    </div>
-    <br>
-    <br>
-    <div id="mine">
-        <p>This is a sample</p>
-    </div>
-    
-    <a href="" id="linked">Click here</a>
+        <div id="text">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet recusandae adipisci corrupti,
+                voluptatum nisi
+                porro voluptas architecto, incidunt ipsa tempora iure rerum eum minima! Ad fuga non tempora dolor
+                laudantium
+                labore neque rem quasi ullam minima. Necessitatibus, ipsum odit eum iste quod doloremque ex repellendus
+                libero
+                deserunt voluptatum. Id officia rem dolorum nulla velit inventore ipsa dicta! Provident aut sapiente
+                doloribus
+                asperiores libero recusandae voluptatem explicabo aspernatur! Debitis perspiciatis fugit distinctio sed,
+                magni
+                officia odio hic at quis illum totam magnam pariatur neque vel natus impedit asperiores animi delectus
+                autem
+                nihil non temporibus voluptatibus ad labore! Atque molestias quo commodi!
+
+        </div>
+        <br>
+        <br>
+        <div id="mine">
+                <p>This is a sample</p>
+        </div>
+
+        <a href="" id="linked">Click here</a>
+        <div id="jim">
+                <div id="jimmed">
+
+                </div>
+        </div>
 </body>
 
 </html>
